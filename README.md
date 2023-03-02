@@ -14,17 +14,19 @@ kafka-3.3.2、scala-2.13、zk-3.4.10
 
 ### Build image
 
-这里用的我的仓库，
+    这里用的我的仓库，
 
-deploy1.sh build
-deploy1.sh push
+    deploy1.sh build
+    
+    deploy1.sh push
 
 
 ### 开启关闭
 
 
-deploy1.sh start
-deploy1.sh stop
+    deploy1.sh start
+    
+    deploy1.sh stop
 
 
 ### 明码密码登陆机制
