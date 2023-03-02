@@ -1,0 +1,15 @@
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: kafka-pv
+  labels:
+    type: kafka
+spec:
+  storageClassName: kafka
+  capacity:
+    storage: 300Mi
+  accessModes:
+    - ReadWriteMany
+  hostPath:
+    path: "/opt/kafka_data"
