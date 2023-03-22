@@ -24,7 +24,7 @@ spec:
   selector:
     matchLabels:
       app: kafka
-  minAvailable: 2
+  minAvailable: 1
 ---
 apiVersion: apps/v1
 kind: StatefulSet
